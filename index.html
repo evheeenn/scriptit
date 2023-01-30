@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Script It</title>
+	<link rel="stylesheet" type="text/css" href="scriptitstyle.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<img src="IT.png" width="177">
+		<ul id="nav">
+			<li>
+				<button class="button" id="fstbutton"><a href="">{Головна}</a></button>
+			</li>
+			<li>
+				<button class="button"><a href="#fah">Наші фахівці</a></button>
+			</li>
+			<li>
+				<button class="button"><a href="#poslugi">Наші послуги</a></button>
+			</li>
+			<li>
+				<button class="button"><a href="">Про нас</a></button>
+			</li>
+			<li>
+				<button class="button"><a href="">Контакти</a></button>
+			</li>
+		</ul>
+	</header>
+	<div id="page1">
+		<div id="aboutus">
+			<h1>{ Хто ми, та чому нас обирають? }</h1>
+			<p>Наша компанія працює на it-ринку з 2022 року. Наша перевага - складні та унікальні проекти, а також різноманітність спеціалізації наших розробників. Наші основні плюси - ціна та якість. Створення кожного сайту - це сумлінна праця дизайнерів, фронтенд та бекенд розробників.</p>
+			<button class="button" id="btn1"><a href="">Як ми працюємо?</a></button>
+		</div>
+		<div id="page1img"></div>
+		<div id="vidgetdiv">
+			<a href="" id="vidget">
+			<img src="vidgetimg.png" width="117">
+		</a>
+		</div>
+	</div>
+	<div id="page2">
+		<h1 id="fah">{ Наші фахівці }</h1>
+		<div id="blocks">
+			<div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                	<div class="scale_box">
+                		<div class="scale" id="red"></div>
+                		<div class="scale"></div>
+                		<div class="scale"></div>
+                		<div class="scale"></div>
+                	</div>
+                    <p class="title">JUNIOR</p>
+                </div>
+                <div class="flip-card-back">
+                	<p><mark>Junior</mark> - недосвідчений розробник, який має досвід праці 0.5-1 рік, який щойно ступив на стежину ІТ. Зазвичай це люди, які нещодавно закінчили курси, пройшли інтернатуру чи навчалися самотужки.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                	<div class="scale_box">
+                		<div class="scale" id="red"></div>
+                		<div class="scale" id="red"></div>
+                		<div class="scale"></div>
+                		<div class="scale"></div>
+                	</div>
+                    <p class="title">MIDDLE</p>
+                </div>
+                <div class="flip-card-back">
+                	<p><mark>Middle</mark> - працівник з двохрічним досвідом роботи. Основна вимога до мідл-розробнику - здатність самостійно виконувати поставлені перед ним завдання.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                	<div class="scale_box">
+                		<div class="scale" id="red"></div>
+                		<div class="scale" id="red"></div>
+                		<div class="scale" id="yel"></div>
+                		<div class="scale"></div>
+                	</div>
+                    <p class="title">SENIOR</p>
+                </div>
+                <div class="flip-card-back">
+                	<p><mark>Senior</mark> - +5 років досвіду. Основне завдання сініора - приймати правильні технологічні рішення в проекті - тобто такі, які приносять максимальну користь бізнесу і мінімізують витрати.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                	<div class="scale_box">
+                		<div class="scale" id="red"></div>
+                		<div class="scale" id="red"></div>
+                		<div class="scale" id="yel"></div>
+                		<div class="scale" id="gre"></div>
+                	</div>
+                    <p class="title">ARCHITECT</p>
+                </div>
+                <div class="flip-card-back">
+                	<p><mark>Architect</mark> - це фахівець, який займається плануванням внутрішньої структури різних програмних систем на основі заданих технічних завдань і наявних у компанії ресурсів.</p>
+                </div>
+            </div>
+        </div>
+		</div>
+	</div>
+	<div id="page3">
+		<h1 id="h1p3">{ Наші послуги }</h1>
+		<div id="poslugi">
+			<div id="list">
+				<ul id="poslugi_ul">
+			       <li id="firstli">
+				       <button class="button">{ HTML/CSS верстка }</button>
+			       </li>
+			       <li>
+				       <button class="button">{ Java Script програмування }</button>
+			       </li>
+			       <li>
+				       <button class="button">{ Робота з серверами }</button>
+			       </li>
+			       <li>
+				       <button class="button">{ Хостінги }</button>
+			       </li>
+			       <li>
+				       <button class="button">{ Дизайн }</button>
+			       </li>
+			        <li>
+				       <button class="button">{ Python програмування }</button>
+			       </li>
+			        <li>
+				       <button class="button">{ Обслуговування сайту }</button>
+			       </li>
+			        <li>
+				       <button class="button">{ Медіаадаптація}</button>
+			       </li>
+			        <li>
+				       <button class="button">{ Створення мобільних додатків }</button>
+			       </li>
+		        </ul>
+			</div>
+			<form id="form1">
+				<legend>{ Калькулятор вартості замовлення }</legend>
+				<h1>Класифікація замовлення:</h1>
+			    <label for="chk1">Інтернет-магазин</label><input type="checkbox" id="chk1">
+			    <label for="chk2">Блог</label><input type="checkbox" id="chk2">
+			    <label for="chk3">Сайт-візитка</label><input type="checkbox" id="chk3">
+		     	<label for="chk4">Сайт компанії</label><input type="checkbox" id="chk4">
+		     	<p><label for="chk5">Моб. додаток</label><input type="checkbox" id="chk5">
+		     		<label for="chk6">Адапт. верстка</label><input type="checkbox" id="chk6">
+		     		<label for="chk7">Обслуговування</label><input type="checkbox" id="chk7"></p>
+		     	<h1>Наявнісь бекенду:</h1>
+		     	<label for="rad1">Є</label><input type="radio" id="rad1">
+		     	<label for="rad2">Нема</label><input type="radio" id="rad2">
+		     	<h1>Наявнісь дизайну:</h1>
+		     	<label for="rad3">Є свій</label><input type="radio" id="rad3">
+		     	<label for="rad4">Не треба</label><input type="radio" id="rad4">
+		     	<label for="rad5">Треба</label><input type="radio" id="rad5">
+		     	<h1>Чи потрібна адаптація під усі пристрої?</h1>
+		     	<label for="rad6">Так</label><input type="radio" id="rad6">
+		     	<label for="rad7">Ні</label><input type="radio" id="rad7">
+		     	<h1>Кількість сторінок:</h1>
+		     	<label for="rad8">До 3</label><input type="radio" id="rad8">
+		     	<label for="rad9">До 10</label><input type="radio" id="rad9">
+		     	<p><label for="txt1">Від 10, кількість:</label><input type="textarea" id="txt1"></p>
+		     	<h1>Чи потрібен хостінг?</h1>
+		     	<label for="rad8">Так</label><input type="radio" id="rad8">
+		     	<label for="rad9">Ні</label><input type="radio" id="rad9">
+		     	<h1>Дані для відправки підрахунків:</h1>
+		        <p><label for="name">ПІБ<em>*</em></label><input type="text" id="name"></p>
+		        <p><label for="email">Email<em>*</em></label><input type="text" id="email"></p>
+		        <p><label for="phone">Номер телефону<em>*</em></label><input type="text" id="phone"></p>
+		        <button class="button">Підрахувати!</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
